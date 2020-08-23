@@ -30,4 +30,4 @@
 [Github](https://github.com/flpfar) | [Twitter](https://twitter.com/flpfar) | [Linkedin](https://www.linkedin.com/in/felipe-augusto-rosa)
 
 ## Acknowledgements
-- Tutorial by [DigitalInovationOne](https://digitalinnovation.one/)
+- Tutorial by [DigitalInnovationOne](https://digitalinnovation.one/)
