@@ -1,5 +1,4 @@
 import React, {memo} from 'react';
-import RefreshIcon from '../../../assets/images/refresh.svg';
 import {Typography, Card, Button, Select, MenuItem} from '../../../components';
 import COUNTRIES from '../../../commons/constants/countries';
 import { CardPanelContentStyled, ItemStyled } from './style';
@@ -18,7 +17,15 @@ function Panel({ updateAt, onChange, data, country, getCovidData }){
     </MenuItem>
   );
 
-  const textCovid19 = `País: ${country} - recuperados: ${recovered}`
+  const textCovid19 = `
+    ${country.toUpperCase()}
+    Casos hoje: ${todayCases}
+    Obitos hoje: ${todayDeaths}
+    Total de casos: ${cases}
+    Total de mortos: ${deaths}
+    Total de recuperados: ${recovered}
+
+  `
 
   const shareInfo = () => {
     navigator.share({
@@ -66,4 +73,4 @@ function Panel({ updateAt, onChange, data, country, getCovidData }){
   )
 }
 
-export default Panel;
+export default memo(Panel);
