@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Covid19-React
 
-## Available Scripts
+> A simple react PWA to show data about covid19.
 
-In the project directory, you can run:
+![Covid19-React](https://user-images.githubusercontent.com/15898299/90985822-ceeeee00-e554-11ea-8f51-7658a4347a53.png)
 
-### `yarn start`
+## Built With
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Javascript
+- React
+- Styled-components
+- Material-Ui
+- Yarn
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Live Version
 
-### `yarn test`
+[Covid19-React](https://covid19-react-pwa.netlify.app/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
+- Clone this repository with: `git clone https://github.com/flpfar/covid19-react.git`
+- Navigate to the project folder `cd covid19-react`
+- Run `npm install`.
+- Run `npm start`.
+- Navigate to `http://localhost:3000` in your browser.
 
-### `yarn build`
+## 👤 Author
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Felipe Rosa (@flpfar)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[Github](https://github.com/flpfar) | [Twitter](https://twitter.com/flpfar) | [Linkedin](https://www.linkedin.com/in/felipe-augusto-rosa)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Acknowledgements
+- Tutorial by [DigitalInovationOne](https://digitalinnovation.one/)
